@@ -134,7 +134,7 @@ class Bird(pygame.sprite.Sprite):
 
       # マウスを左クリックを離したら
       if pygame.mouse.get_pressed()[0] == 0:
-        # クリックフラグを更新
+        # クリックフラグを更新u
         self.clicked = False
 
       # カウンター増加
